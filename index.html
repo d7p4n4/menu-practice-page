@@ -240,9 +240,16 @@
       
       .text {
         color: rgb(240,240,240);
-        font-size: .85rem;
-        line-height: 1.5rem;
+        font-size: 1rem;
+        line-height: 1.2rem;
         font-family: lora;
+      }
+      
+      @media (min-width: 768px) {
+        .text {
+          font-size: .85rem;
+          line-height: 1.5rem;
+        }
       }
       
       .light-green-field {
@@ -507,18 +514,6 @@
       
       .footer-text {
         color: rgba(97,105,127,.8);
-      }
-      
-      svg {
-        position: relative;
-        left: calc(50% - 3rem);
-        text-align: center;
-        transform: scale(.75);
-      }
-      
-      polyline {
-        width: 5rem;
-        height: 7rem;
       }
       
       .fa-arrow-down {
